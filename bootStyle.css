@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =====================================================[TOP-HEADER-END]=========================================================== */
+.top-header{
+  background-color: #fca311;
+  height: 40px;
+  width: 100%;
+  background-color: #14213d;
+  color: whitesmoke;
+
+}
+.top-header-img img{
+  width: 20px;
+  margin: 3px;
+}
+
+/* ========================================================[LOGO]========================================================== */
+.logo {
+    height: 12%;
+    width: 100%;
+    color: #14213d;
+    background-color: whitesmoke;
+  }
+
+  .cnt-2 {
+    line-height: 0;
+  }
+
+.hero-btn{
+    background-color: #fca311;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 20px;
+    color: #14213d;
+}
+  
+/* ===================================================[NAVIGATION-BAR]===================================================== */
+.material-symbols-outlined{
+    color: #fca311;
+    font-size: 2rem !important;
+}
+.navbar-toggler{
+    border: none !important;
+    width: 4rem;
+}
+
+
+header {
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(rgba(2, 2, 24, 0.750), rgba(4, 4, 37, 0.900)),url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+
+  .container-fluid{
+  width: 100%;
+  height: 90%;
+  }
+  
+.container-text {
+    width: 120%;
+  }
+  
+  .container-banner{
+    width: 100%;     
+  }
+
+  .card2{
+    height: auto;
+    width: 300px;
+    line-height: 20px;
+    color: #14213d;
+    background-color: white;
+    overflow: hidden;
+  }
+
+
+
+  
+.card3{
+  border: none;
+  height: 500px;
+  width: 350px;
+  border-radius: 20px 20px 20px 20px ;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  line-height: 20px;
+  color: #14213d;
+  margin: 18px;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
