@@ -81,6 +81,8 @@ header {
     background-attachment: fixed;
   }
 
+
+  /* ==========[ Cards ]========= */
   .pricingTable{
     margin-top:30px;
     text-align: center;
@@ -102,7 +104,7 @@ header {
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
     background: #EF476F;
     padding: 15px 0 0;
@@ -113,7 +115,7 @@ header {
     display: block;
     font-size: 35px;
     font-weight: 700;
-    color: #000;
+    color: #fff;
     background: #EF476F;
     padding: 5px 0 10px;
     margin: 0 35px 0 0;
@@ -171,14 +173,15 @@ header {
     display: inline-block;
     padding: 9px 20px;
     font-weight: 700;
-    color: #EF476F;
+    color: #EF476F !important;
+    text-decoration: none;
     text-transform: uppercase;
     border: 1px solid #EF476F;
     background: #fff;
     transition: all 0.4s ease 0s;
 }
 .pricingTable:hover .link a{
-    color: #fff;
+    color: #fff !important;
     background: #06D6A0;
     border: 1px solid #06D6A0;
 }
