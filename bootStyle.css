@@ -9,7 +9,6 @@ body {
 
 /* =====================================================[TOP-HEADER-END]=========================================================== */
 .top-header{
-  background-color: #fca311;
   height: 40px;
   width: 100%;
   background-color: #14213d;
@@ -33,14 +32,7 @@ body {
     line-height: 0;
   }
 
-.hero-btn{
-    background-color: #fca311;
-    border: none;
-    font-weight: 600;
-    font-size: 16px;
-    padding: 20px;
-    color: #14213d;
-}
+
   
 /* ===================================================[NAVIGATION-BAR]===================================================== */
 .material-symbols-outlined{
@@ -56,7 +48,7 @@ body {
 header {
     height: auto;
     width: auto;
-    background-image: linear-gradient(rgba(2, 2, 24, 0.750), rgba(4, 4, 37, 0.900)),url(images/bg.jpg);
+    background-image: linear-gradient(#14213def, #14213def),url(images/bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -76,29 +68,127 @@ header {
     width: 100%;     
   }
 
-  .card2{
+  a{
+    color: #14213d !important;
+  }
+  
+  .course{
     height: auto;
-    width: 300px;
-    line-height: 20px;
-    color: #14213d;
-    background-color: white;
-    overflow: hidden;
+    width: auto;
+    background-image: linear-gradient(#14213def, #14213def),url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 
-
-
-  
-.card3{
-  border: none;
-  height: 500px;
-  width: 350px;
-  border-radius: 20px 20px 20px 20px ;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  line-height: 20px;
-  color: #14213d;
-  margin: 18px;
-  overflow: hidden;
-  background-color: whitesmoke;
+  .pricingTable{
+    margin-top:30px;
+    text-align: center;
+    position: relative;
+}
+.pricingTable .pricing_heading:after{
+    content: "";
+    width: 36px;
+    height: 29.5%;
+    background:#EF476F;
+    position: absolute;
+    top: -1px;
+    right: 0;
+    z-index: 2;
+    transform: skewY(45deg) translateY(18px);
+    transition: all 0.4s ease 0s;
+}
+.pricingTable .title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #000;
+    text-transform: uppercase;
+    background: #EF476F;
+    padding: 15px 0 0;
+    margin: 0 35px 0 0;
+    transition: all 0.4s ease 0s;
+}
+.pricingTable .value{
+    display: block;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+    background: #EF476F;
+    padding: 5px 0 10px;
+    margin: 0 35px 0 0;
+    transition: all 0.4s ease 0s;
+}
+.pricingTable:hover .title,
+.pricingTable:hover .value{
+    color: #fff;
+}
+.pricingTable .month{
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+.pricingTable .content{
+    border-left: 1px solid #f2f2f2;
+    position: relative;
+}
+.pricingTable .content:after{
+    content: "";
+    width: 35px;
+    height: 100%;
+    background: #f8f8f8;
+    box-shadow: 9px 9px 20px #ddd;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    transform: skewY(-45deg) translateY(-18px);
+    transition: all 0.4s ease 0s;
+}
+.pricingTable .content ul{
+    padding: 0;
+    margin: 0 35px 0 0;
+    list-style: none;
+    background: #fff;
+}
+.pricingTable .content ul li{
+    display: block;
+    font-size: 15px;
+    color: #333;
+    line-height: 23px;
+    padding: 11px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+.pricingTable .link{
+    background: #fff;
+    padding: 20px 0;
+    margin-right: 35px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.pricingTable .link a{
+    display: inline-block;
+    padding: 9px 20px;
+    font-weight: 700;
+    color: #EF476F;
+    text-transform: uppercase;
+    border: 1px solid #EF476F;
+    background: #fff;
+    transition: all 0.4s ease 0s;
+}
+.pricingTable:hover .link a{
+    color: #fff;
+    background: #06D6A0;
+    border: 1px solid #06D6A0;
+}
+.pricingTable:hover .pricing_heading:after,
+.pricingTable:hover .title,
+.pricingTable:hover .value{
+    background:#06D6A0;
+}
+@media only screen and (max-width: 990px){
+    .pricingTable{
+        margin-bottom: 35px;
+    }
 }

@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="bootStyle.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
     <title>E-Learning | Education</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -15,558 +18,825 @@
     />
   </head>
   <body>
-
-<!-- =======================================================[TOP-HEADER]=================================================================== -->
+    <!-- =======================================================[TOP-HEADER]=================================================================== -->
     <div class="top-header d-flex justify-content-around p-2">
       <div class="top-header-text">
         <p>Online Education Courses Millions of people learning!</p>
       </div>
 
-      <div class="top-header-img d-none d-sm-none d-md-block d-xl-block ">
-      <img src="images/facebook.png" alt=""> 
-      <img src="images/twitter.png" alt="">
-      <img src="images/linkedin.png" alt="">
-      <img src="images/youtube.png" alt="">
+      <div class="top-header-img d-none d-sm-none d-md-block d-xl-block">
+        <img src="images/facebook.png" alt="" />
+        <img src="images/twitter.png" alt="" />
+        <img src="images/linkedin.png" alt="" />
+        <img src="images/youtube.png" alt="" />
       </div>
     </div>
-<!-- ======================================================[TOP-HEADER-END]================================================================ -->
+    <!-- ======================================================[TOP-HEADER-END]================================================================ -->
 
-<!-- ==========================================================[HEADER]===================================================================== -->
-    <div class="logo d-flex justify-content-around p-2 fs-6">
+    <!-- ==========================================================[HEADER]===================================================================== -->
+    <div class="logo container-fluid">
+      <div class="container d-flex justify-content-center p-2 fs-6">
+        <div class="cnt d-block">
+          <img src="images/LOGO.png" alt="" style="width: 16rem" />
+        </div>
 
-      <div class="cnt d-none d-sm-none d-md-block d-xl-block">
-        <img src="images/LOGO.png" alt="" style="width: 16rem; " /> 
-      </div>
+        <div class="w-100 justify-content-end gap-5 d-none d-lg-flex">
+          <div class="cnt-2 d-none d-sm-none d-md-block d-xl-block ms-3">
+            <div><img src="" alt="" /></div>
+            <div>
+              <h3 style="font-size: larger" class="d-flex flex-column mt-2">
+                Call
+              </h3>
+              <p>+919892458756</p>
+            </div>
+          </div>
 
-      <div class="cnt-2 d-none d-sm-none d-md-block d-xl-block">
-        <div><img src="" alt="" /></div>
-        <div>
-          <h3>Call</h3>
-          <p>+919892458756</p>
+          <div class="cnt-2 d-none d-sm-none d-md-block d-xl-block ms-3">
+            <div><img src="" alt="" /></div>
+            <div>
+              <h3 style="font-size: larger" class="d-flex flex-column mt-2">
+                Email
+              </h3>
+              <p>abc@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="cnt-2 d-none d-sm-none d-md-block d-xl-block ms-3">
+            <div><img src="" alt="" /></div>
+            <div>
+              <h3 style="font-size: larger" class="d-flex flex-column mt-2">
+                Address
+              </h3>
+              <p>24 Fifth st, Los Angeles, USA</p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="cnt-2 d-none d-sm-none d-md-block d-xl-block">
-        <div><img src="" alt="" /></div>
-        <div>
-          <h3>Email</h3>
-          <p>abc@gmail.com</p>
-        </div>
-      </div>
-
-      <div class="cnt-2 d-none d-sm-none d-md-block d-xl-block">
-        <div><img src="" alt="" /></div>
-        <div>
-          <h3>Address</h3>
-          <p>24 Fifth st, Los Angeles, USA</p>
-        </div>
-      </div>
-
     </div>
-<!-- =========================[ Navbar ]================================ -->
-
-    <nav class="navbar navbar-expand-lg fs-5" >
-
-      <div class="container-fluid">
-        <img src="images/LOGO.png" alt="" style="width: 10rem;" class="d-block d-sm-block d-md-block d-xl-none" /> 
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="material-symbols-outlined">menu</span>
-        </button>
+    <!-- =========================[ Navbar ]================================ -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary p-0 container-fluid sticky-top"
+    >
+      <div class="container justify-content-between">
+        <div class="d-flex justify-content-between w-100 d-lg-none">
+          <button
+            class="btn rounded-0 p-3 fw-bold d-lg-none"
+            type="submit"
+            style="background-color: #fca311; color: #14213d"
+          >
+            Login / Register
+          </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </button>
+        </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 gap-2"
+            style="font-weight: bold"
+          >
             <li class="nav-item">
-              <a class="nav-link active me-4" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PAGES
+              </a>
+              <ul
+                class="dropdown-menu rounded-0"
+                style="border-top: 0.3rem solid #fca311; width: 14rem"
+              >
+                <li><a class="dropdown-item fw-bold" href="#">ABOUT US</a></li>
+                <li><a class="dropdown-item fw-bold" href="#">FAQ's</a></li>
+                <li><a class="dropdown-item fw-bold" href="#">SUPPORT</a></li>
+                <li>
+                  <a class="dropdown-item fw-bold" href="#">SCHOLERSHIP</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-4" href="#">Services</a>
+              <a class="nav-link" href="#">COURSE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-4" href="#">Events</a>
+              <a class="nav-link">EVENTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-4" href="#">Courses</a>
+              <a class="nav-link">TEACHERS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-4" href="#">Teachers</a>
+              <a class="nav-link">PRICING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link me-4" href="#">Contact</a>
+              <a class="nav-link">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">CONTACT</a>
             </li>
           </ul>
 
-          <form class="d-flex">
-            <button class="hero-btn" type="submit">Login / Register</button>
-          </form>
+          <button
+            class="btn rounded-0 p-3 fw-bold d-lg-block d-none"
+            type="submit"
+            style="background-color: #fca311"
+          >
+            Login / Register
+          </button>
         </div>
       </div>
     </nav>
 
-<!-- =========================[ Navbar End]================================ -->
+    <!-- =========================[ Navbar End]================================ -->
 
-    <header id="header container">
-
-      <div class="row p-5">
-
-        <div class="container-text container col">
-
-          <h1 class="display-3 text-white text-sm-center text-md-center text-lg-start text-justify text-center">Start Learning and Embrace New Skills For Better Future</h1>
-          <p class="text-white text-sm-center text-md-center text-lg-start text-justify text-center">
+    <header id="header container-fluid">
+      <div class="container">
+      <div class="row pt-5 pb-5">
+        <div class="col-12 col-lg-6 mb-5 mb-lg-0 mt-lg-5">
+          <h1
+            class=" text-white text-sm-center text-md-center text-lg-start text-justify text-center"
+          >
+            Start Learning and Embrace New Skills For Better Future
+          </h1>
+          <p
+            class="text-white text-center text-lg-start text-justify text-center"
+          >
             With the help of E-Learning, create your own path and drive on your
             skills on your own to achieve what you seek.
           </p>
 
-          <button class="hero-btn ms-5 ms-xl-0" style="width:16rem;">View All Courses</button>
+          <div class="m-auto justify-content-center d-flex d-lg-block">
+            <button
+              class="btn rounded-0 p-3 fw-bold"
+              type="submit"
+              style="width: 16rem; background-color: #fca311"
+            >
+              View All Course
+            </button>
+          </div>
         </div>
 
-        <div class="col d-none d-sm-none d-md-none d-xl-block">
-          <img src="images/banner.png" alt="banner" class="container-banner"/>
+        <div class="col-lg-6 col-12 m-auto">
+          <img
+            src="https://theme.bitrixinfotech.com/e-learning/assets/images/banner.png"
+            alt="banner"
+            class="img-fluid"
+          />
         </div>
-        
       </div>
-
-      <img src="images/wave1.png" alt="" style="width: 100%; height: 10%;">
-
+</div>
+      <img src="images/wave1.png" alt="" style="width: 100%; height: 10%" />
     </header>
-<!-- ====================================================[HEADER-END]======================================================================== -->
-    
-<!-- ====================================================[SERVICES]========================================================================== -->
-    <div id="services" class="container"> 
+    <!-- ====================================================[HEADER-END]======================================================================== -->
 
-      <div class="text-dark mt-4 mb-4 text-center row">
-        <h1>Why Chooose Endureka</h1>
-        <p>Look into yourself, know you’re ambitious 
-          and keep moving forward until you get something <br />
-          in return as your achievement.</p>
-      </div>
-
-      <div class="row ">
-
-        <div class="col  text-center p-3 border rounded-3 m-3" style="width: 320px;">
-        <img src="images/open-book.png" alt="" style="width: 90px;">
-        <h3>Course Accessibility</h3>
-        <p>Select a suitable course from the vast 
-          area of other courses and access it anytime and 
-          from anywhere.</p>
-      </div>
-
-      <div class="col text-center p-3 border rounded-3 m-3" style="width: 320px;">
-        <img src="images/internet.png" alt="" style="width: 90px;">
-        <h3>Course Accessibility</h3>
-        <p>Select a suitable course from the vast 
-          area of other courses and access it anytime and 
-          from anywhere.</p>
-      </div>
-
-      <div class="col text-center p-3 border rounded-3 m-3" style="width: 320px;">
-        <img src="images/graduation-hat.png" alt="" style="width: 90px;">
-        <h3>Course Accessibility</h3>
-        <p>Select a suitable course from the vast 
-          area of other courses and access it anytime and 
-          from anywhere.</p>
-      </div>
-
-    </div>
-
-    <div class="row">
-      
-      <div class="col text-center p-3 border rounded-3 m-3" style="width: 320px;">
-        <img src="images/internet.png" alt="" style="width: 90px;">
-        <h3>Course Accessibility</h3>
-        <p>Select a suitable course from the vast 
-          area of other courses and access it anytime and 
-          from anywhere.</p>
-      </div>
-
-      <div class="col text-center p-3 border rounded-3 m-3" style="width: 320px;">
-        <img src="images/graduation-hat.png" alt="" style="width: 90px;">
-        <h3>Course Accessibility</h3>
-        <p>Select a suitable course from the vast 
-          area of other courses and access it anytime and 
-          from anywhere.</p>
-      </div>
-
-      <div class="col  align-items-center text-center p-3 border rounded-3 m-3" style="width: 350px;">
-        <img src="images/open-book.png" alt="" style="width: 90px;">
-        <h3>Course Accessibility</h3>
-        <p>Select a suitable course from the vast 
-          area of other courses and access it anytime and 
-          from anywhere.</p>
-      </div>
-      </div>
-
-    </div>
-<!-- ====================================================[SERVICES-END]====================================================================== -->
-
-<!-- =================================================[COURSES]======================================================================================== -->
-    <div id="courses" class="container">
-
-      <div class="row text-center m-4">
-        <h1>Discover The Variety Of Courses Here</h1>
-        <p>Choose one appropriate course for you from over multifarious courses<br />
-          available on this platform.</p>
-      </div>
-
-      <div class="row justify-content-center">
-      <div class="card2 border rounded-3 m-3 p-0" style="width: 320px;">
-        <img src="images/pexels-armin-rimoldi-5554294.jpg" style="width: 400px; height: 200px;"  alt="">
-        <div class="text-start p-3" >
-        <h3>Data Product Manager</h3>
-        <p>Follow the step by step process 
-          to learn data and gain understandability 
-          of software-based products in depth.</p>
-          <div class="feedback">
-            <star>★★★★☆</star><span style="color: rgb(1, 1, 54);">♥ 10</span>
+    <!-- ====================================================[SERVICES]========================================================================== -->
+    <section class="container-fluid p-3">
+      <div class="container pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-9 text-center">
+            <h1 class="">Why Choose E-learning</h1>
+            <p class="fs-5 text-dark">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              nihil nemo repellat, suscipit saepe officia ipsam eum.
+            </p>
           </div>
         </div>
-      </div>
 
-      <div class="card2 border rounded-3 m-3 p-0" style="width: 320px; ">
-        <img src="images/pexels-kampus-production-5940838.jpg" style="width: 400px; height: 200px;" alt="">
-        <div class="text-start p-3" style="padding: 20px;">
-        <h3>Data Product Manager</h3>
-        <p>Follow the step by step process 
-          to learn data and gain understandability 
-          of software-based products in depth.</p>
-          <div class="feedback">
-            <star>★★★★☆</star><span style="color: rgb(1, 1, 54);">♡ 60</span>
-          </div>
-        </div>
-      </div>
+        <div class="row">
+          
+          <div class="col-12 col-lg-4 col-md-6">
 
-      <div class="card2 border rounded-3 m-3 p-0" style="width: 320px; ">
-        <img src="images/pexels-keira-burton-6146978.jpg" style="width: 400px; height: 200px;" alt="">
-        <div class="text-start p-3" style="padding: 20px;">
-        <h3>Data Product Manager</h3>
-        <p>Follow the step by step process 
-          to learn data and gain understandability 
-          of software-based products in depth.</p>
-          <div class="feedback">
-            <star>★★★★☆</star><span style="color: rgb(1, 1, 54);">♥ 50</span>
-          </div>
-        </div>
-      </div>
-      </div>
-
-
-      <div class="row justify-content-center">
-        <div class="card2 border rounded-3 m-3 p-0" style="width: 320px; ">
-          <img src="images/pexels-armin-rimoldi-5554294.jpg" style="width: 400px; height: 200px;" alt="">
-          <div class="text-start p-3" style="padding: 20px;">
-          <h3>Data Product Manager</h3>
-          <p>Follow the step by step process 
-            to learn data and gain understandability 
-            of software-based products in depth.</p>
-            <div class="feedback">
-              <star>★★★★☆</star><span style="color: rgb(1, 1, 54);">♥ 10</span>
+            <div class="card shadow border-0 mt-4">
+            <div class="card-body">
+              <div class="d-flex w-100 justify-content-center p-2">
+              <img src="https://cdn-icons-png.flaticon.com/512/1048/1048927.png" alt="" srcset="" width="100">
             </div>
-          </div>
-        </div>
-  
-        <div class="card2 border rounded-3 m-3 p-0" style="width: 320px; ">
-          <img src="images/pexels-kampus-production-5940838.jpg" style="width: 400px; height: 200px;" alt="">
-          <div class="text-start p-3" style="padding: 20px;">
-          <h3>Data Product Manager</h3>
-          <p>Follow the step by step process 
-            to learn data and gain understandability 
-            of software-based products in depth.</p>
-            <div class="feedback">
-              <star>★★★★☆</star><span style="color: rgb(1, 1, 54);">♡ 60</span>
+            <div class="text-center text-dark">
+              <h5 class="fw-bold">Course Accessibility</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita, iste dolorem! Consequatur, fuga temporibus alias id 
+              </p>
             </div>
-          </div>
-        </div>
-  
-        <div class="card2 border rounded-3 m-3 p-0" style="width: 320px; ">
-          <img src="images/pexels-keira-burton-6146978.jpg" style="width: 400px; height: 200px;" alt="">
-          <div class="text-start p-3" style="padding: 20px;">
-          <h3>Data Product Manager</h3>
-          <p>Follow the step by step process 
-            to learn data and gain understandability 
-            of software-based products in depth.</p>
-            <div class="feedback">
-              <star>★★★★☆</star><span style="color: rgb(1, 1, 54);">♥ 50</span>
-            </div>
-          </div>
-        </div>
-        </div>
-      
-
-
-    </div>
-<!-- ==============================================[COURSES-END]======================================================================================= -->
-
-<!-- ==================================================[EVENTS]================================================================================================= -->
-    <div id="events" class="events">
-      <div class="text">
-        <h1>Upcoming Events</h1>
-        <p>To support and empower students, we arrange some of the events where they acknowledge <br />
-           something which helps them to become a successful person.</p>
-      </div>
-
-      <div class="card3-container">
-        <div class="card3">
-          <img src="images/event1.jpg" alt="">
-          <div class="designation" style="padding: 20px;">
-          <h3>Webinar: Data Specialist</h3>
-          <p>Get on the digital seat and hear what Data analysis experts 
-            have to say about the industry and enlighten yourself.</p>
-          </div>
-          <div class="location">
-            <span><img src="images/pro.png" alt=""> Jhon wood</span>
-            <span><img src="images/locations.png" alt=""> New York</span>
-          </div>
-        </div>
-        
-          <div class="card3">
-            <img src="images/event2.jpg" alt="">
-            <div class="designation" style="padding: 20px;">
-            <h3>Virtual Java Conference</h3>
-            <p>Grab the opportunity and dive into the ocean of learning 
-              and upcoming events coming in the java world.</p>
-            </div>
-            <div class="location">
-              <span><img src="images/pro.png" alt=""> Jhon wood</span>
-              <span><img src="images/locations.png" alt=""> New York</span>
+              
             </div>
           </div>
 
-          <div class="card3">
-            <img src="images/event3.jpg" alt="">
-            <div class="designation" style="padding: 20px;">
-            <h3>International talk on e-Learning</h3>
-            <p>Come around and listen to the industry experts
-               who have the vision to take e-learning on another level.</p>
-            </div>
-            <div class="location">
-              <span><img src="images/pro.png" alt=""> Jhon wood</span>
-              <span><img src="images/locations.png" alt=""> New York</span>
-            </div>
+        </div>
+          
+        <div class="col-12 col-lg-4 col-md-6">
+
+          <div class="card shadow border-0 mt-4">
+          <div class="card-body">
+            <div class="d-flex w-100 justify-content-center p-2">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732475.png" alt="" srcset="" width="100">
           </div>
-      </div>
-    </div>
-<!-- ==================================================[EVENTS-END]========================================================================== -->
-
-<!-- ====================================================================[COUNTTABLE]======================================================== -->
-    <!-- <div id="countTable" class="count-table">
-
-      <div class="countable-container">        
-        <div class="count">
-          <img src="images/brainstorm.png" alt="" style="width: 75px;">
-          <h1>1800+</h1>
-          <h5>Students</h5>
-        </div>
-
-        <div class="count">
-          <img src="images/web-design.png" alt="" style="width: 75px;">
-          <h1>300+</h1>
-          <h5>Course</h5>
-        </div>
-
-        <div class="count">
-          <img src="images/tech-support.png" alt="" style="width: 75px;">
-          <h1>100+</h1>
-          <h5>Certified Teachers</h5>
-        </div>
-
-        <div class="count">
-          <img src="images/trophy.png" alt="" style="width: 75px;">
-          <h1>50+</h1>
-          <h5>Award Winnings</h5>
+          <div class="text-center text-dark">
+            <h5 class="fw-bold">Scholarship</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Expedita, iste dolorem! Consequatur, fuga temporibus alias id 
+            </p>
+          </div>
+            
+          </div>
         </div>
 
       </div>
+          
+      <div class="col-12 col-lg-4 col-md-6">
 
-    </div> -->
-<!-- =================================================[COUNTTABLE-END]======================================================================= -->
-
-<!-- ====================================================[GALLERY]=========================================================================== -->
-    <!-- <div id="gallery" class="gallery">
-
-      <div class="text">
-        <h1>Our Gallery</h1>
-        <p>If you are going to use a passage of you need to be sure there isn't anything embarrassing<br/>
-           hidden in the middle of text</p>
-      </div>
-
-      <div class="button-container">
-        <button class="hero-button2">All</button>
-        <button class="hero-button2">Web Design</button>
-        <button class="hero-button2">Web Development</button>
-        <button class="hero-button2">Brand Identity</button>
-      </div>
-
-      <div class="image-container">
-        <img src="images/pexels-armin-rimoldi-5554294.jpg" alt=""/>
-        <img src="images/pexels-kampus-production-5940838.jpg" alt=""/>
-        <img src="images/pexels-keira-burton-6146978.jpg" alt=""/>
-      </div>
-
-      <div class="image-container">
-        <img src="images/pexels-armin-rimoldi-5554294.jpg" alt=""/>
-        <img src="images/pexels-kampus-production-5940838.jpg" alt=""/>
-        <img src="images/pexels-keira-burton-6146978.jpg" alt=""/>
-      </div>
-
-
-    </div> -->
-<!-- =================================================[GALLERY-END]========================================================================== -->
-
-<!-- =================================================[EXPERTS]============================================================================== -->
-    <!-- <div id="experts" class="experts">
-
-      <div class="text">
-        <h1>Team of Experts</h1>
-        <p>Here you will have the team of experts from multifarious industries 
-          you will learn from them under their experience and ethical guidance.</p>
-      </div>
-
-      
-      <div class="card4-container">
-      <div class="card4">
-        <img src="images/te1.jpeg" alt="">
-        <h3 >Wendy Carry</h3>
-        <p style="color: grey;">Enlish Teacher</p>       
-      </div>
-      <div class="card4">
-        <img src="images/te2.jpeg" alt="">
-        <h3 >Carry Brooks</h3>
-        <p style="color: grey;">Enlish Teacher</p>       
-      </div>
-      <div class="card4">
-        <img src="images/te3.jpeg" alt="">
-        <h3 >Rebika Alig</h3>
-        <p style="color: grey;">Enlish Teacher</p>       
-      </div>
-      <div class="card4">
-        <img src="images/te4.jpeg" alt="">
-        <h3 >Wendy Carry</h3>
-        <p style="color: grey;">Enlish Teacher</p>       
-      </div>
-      </div>
-
-    </div> -->
-<!-- =================================================[EXPERTS-END]========================================================================== -->
- 
-<!-- =====================================================================[AWARDS]=========================================================== -->
-    <!-- <div id="awards" class="arwards">
-      <img src="images/award1.jpeg" alt="">
-      <img src="images/award2.jpeg" alt="">
-      <img src="images/award3.jpeg" alt="">
-      <img src="images/award4.jpeg" alt="">
-    </div> -->
-<!-- =====================================================================[AWARDS-END]======================================================= -->
-
-<!-- ===================================================[CONTACT]============================================================================ -->
-    <!-- <div id="contact" class="contact">
-      <img src="images/wave2.png" alt="" style="width: 100%; height: 10%;">
-
-      <div class="contact-container">
-
-        <div class="contact-us-box">  
-          <h2 class="contact-h3 title">Contact Us</h2>        
-          <div class="contact-links">
-            <span class="material-symbols-outlined">pin_drop</span>
-            <p>Spring Store London Oxford Street, 012 United Kingdom</p>
-          </div>
-
-          <div class="contact-links">
-            <span class="material-symbols-outlined">call </span>
-            <p>+00 1234 456789</p>
-          </div>
-
-          <div class="contact-links">
-            <span class="material-symbols-outlined">mail </span>
-            <p>info@example.com</p> 
-          </div>
-
-          <div class="contact-links">
-            <span class="material-symbols-outlined">tty</span>
-            <p>+199 200 332 950</p> 
-          </div>
+      <div class="card shadow border-0 mt-4">
+        <div class="card-body">
+          <div class="d-flex w-100 justify-content-center p-2">
+          <img src="https://cdn-icons-png.flaticon.com/512/2880/2880366.png" alt="" srcset="" width="100">
         </div>
-
-        <div class="contact-us-box">  
-          <h2 class="contact-h3 title">Feature Links</h2>        
-          <div class="contact-links">
-            <span class="material-symbols-outlined">radio_button_checked</span>
-            <p>About Us</p>
-          </div>
-
-          <div class="contact-links">
-            <span class="material-symbols-outlined">radio_button_checked</span>
-            <p>Courses</p>
-          </div>
-
-          <div class="contact-links">
-            <span class="material-symbols-outlined">radio_button_checked</span>
-            <p>Scholership</p> 
-          </div>
-
-          <div class="contact-links">
-            <span class="material-symbols-outlined">radio_button_checked</span>
-            <p>Contact</p> 
-          </div>
+        <div class="text-center text-dark">
+          <h5 class="fw-bold">Course Accessibility</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Expedita, iste dolorem! Consequatur, fuga temporibus alias id 
+          </p>
         </div>
-
-
-        <div class="contact-us-box">  
-          <h2 class="contact-h3 title" >Support</h2>        
-          <div class="contact-links">
-            <span class="material-symbols-outlined">radio_button_checked</span>
-            <p>FAQ</p>
-          </div>
-
-          <div class="contact-links">
-            <span class="material-symbols-outlined">radio_button_checked</span>
-            <p>Support</p>
-          </div>
-        </div>
-
-
-        <div class="contact-us-box img-box">  
-          <h2 class="contact-h3 title">Download Our Apps</h2>    
-          <img src="images/google icons/playstore.png" alt="" style="width: 250px;"> 
-          <img src="images/google icons/aapstore.png" alt="" style="width: 250px;">    
           
         </div>
-
-
-    </div> -->
-<!-- ======================================================================[SOCIAL-START]===================================================== -->
-
-
-    <!-- <div class="social">
-
-      <div class="social-card1">
-        <img src="images/facebookSquare.png" alt="" style="width: 30px; margin-right: 20px;" ><h3>FACEBOOK</h3>
       </div>
-
-      <div class="social-card2">
-        <img src="images/twitterSquare.png" alt="" style="width: 30px; margin-right: 20px;" ><h3>TWITTER</h3>
-      </div>
-
-      <div class="social-card3">
-        <img src="images/linkedinSquare.png" alt="" style="width: 30px; margin-right: 20px;" ><h3>LINKED IN</h3>
-      </div>
-
-      <div class="social-card4">
-        <img src="images/youtubeSquare.png" alt="" style="width: 30px; margin-right: 20px;" ><h3>YOUTUBE</h3>
-      </div>
-
 
     </div>
-    </div> -->
-<!-- ======================================================================[SOCIAL-END]===================================================== -->
+          
+    <div class="col-12 col-lg-4 col-md-6">
 
-<!-- ======================================================================[CONTACT-END]===================================================== -->
+    <div class="card shadow border-0 mt-4">
+      <div class="card-body">
+        <div class="d-flex w-100 justify-content-center p-2">
+        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="" srcset="" width="100">
+      </div>
+      <div class="text-center text-dark">
+        <h5 class="fw-bold">Expert Instructions</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Expedita, iste dolorem! Consequatur, fuga temporibus alias id 
+        </p>
+      </div>
+        
+      </div>
+    </div>
 
-<!-- =========================================================================[FOOTER]======================================================= -->
-    <!-- <footer>
-      <p>Copyright © 2022 <span>E-learning</span>. All right reserved By <span>Siddhesh M</span></p>
-    </footer> -->
-<!-- ========================================================================[FOOTER-END]=================================================== -->
- 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+  </div>
+          
+  <div class="col-12 col-lg-4 col-md-6">
+
+  <div class="card shadow border-0 mt-4">
+    <div class="card-body">
+      <div class="d-flex w-100 justify-content-center p-2">
+      <img src="https://cdn-icons-png.flaticon.com/512/3791/3791461.png" alt="" srcset="" width="100">
+    </div>
+    <div class="text-center text-dark">
+      <h5 class="fw-bold">Schedule learning</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Expedita, iste dolorem! Consequatur, fuga temporibus alias id 
+      </p>
+    </div>
+      
+    </div>
+  </div>
+
+</div>
+          
+<div class="col-12 col-lg-4 col-md-6">
+
+<div class="card shadow border-0 mt-4">
+  <div class="card-body">
+    <div class="d-flex w-100 justify-content-center p-2">
+    <img src="https://cdn-icons-png.flaticon.com/512/2282/2282210.png" alt="" srcset="" width="100">
+  </div>
+  <div class="text-center text-dark">
+    <h5 class="fw-bold">Recorded sessions</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Expedita, iste dolorem! Consequatur, fuga temporibus alias id 
+    </p>
+  </div>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      </div>
+    </section>
+
+        <!-- ====================================================[Course]========================================================================== -->
+        <section class="container-fluid p-3 bg-light" >
+          <div class="container pb-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-9 text-center">
+                <h1 class="">Discover The Variety Of Courses Here</h1>
+                <p class="fs-5 text-dark">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                  nihil nemo repellat, suscipit saepe officia ipsam eum.
+                </p>
+              </div>
+            </div>
+    
+            <div class="row justify-content-center d-flex">
+              
+              
+            <div class="col-12 col-lg-4 col-md-6 justify-content-center d-flex ">
+              <div class="card rounded-0 border-0 mt-4" style="width: 22rem;">
+              <img src="https://theme.bitrixinfotech.com/e-learning/assets/images/courses/courses1.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body pb-0" style="color: #14213d;">
+                <h5 class="card-title fw-bold">Data Product Manager</h5>
+                <p class="card-text" style="font-size: 17px;">
+                  The interest for Product Management is expanding at a crazy rate. 
+                  An number of organizations are at The interest for Product Managemen
+                  is expanding at a crazy rate.</p>
+              </div>
+              <hr>
+              <div class="pt-0 p-3 justify-content-between d-flex">
+                <p>Alia Noor</p>
+                <button class="btn btn-success">Free</button>
+              </div>
+            </div>
+          </div>
+              
+              
+          <div class="col-12 col-lg-4 col-md-6 justify-content-center d-flex ">
+            <div class="card rounded-0 border-0 mt-4" style="width: 22rem;">
+            <img src="https://theme.bitrixinfotech.com/e-learning/assets/images/courses/courses1.jpg" class="card-img-top rounded-0" alt="...">
+            <div class="card-body pb-0" style="color: #14213d;">
+              <h5 class="card-title fw-bold">Data Product Manager</h5>
+              <p class="card-text" style="font-size: 17px;">
+                The interest for Product Management is expanding at a crazy rate. 
+                An number of organizations are at The interest for Product Managemen
+                is expanding at a crazy rate.</p>
+            </div>
+            <hr>
+            <div class="pt-0 p-3 justify-content-between d-flex">
+              <p>Alia Noor</p>
+              <button class="btn btn-success">Free</button>
+            </div>
+          </div>
+        </div>
+              
+              
+        <div class="col-12 col-lg-4 col-md-6 justify-content-center d-flex ">
+          <div class="card rounded-0 border-0 mt-4" style="width: 22rem;">
+          <img src="https://theme.bitrixinfotech.com/e-learning/assets/images/courses/courses1.jpg" class="card-img-top rounded-0" alt="...">
+          <div class="card-body pb-0" style="color: #14213d;">
+            <h5 class="card-title fw-bold">Data Product Manager</h5>
+            <p class="card-text" style="font-size: 17px;">
+              The interest for Product Management is expanding at a crazy rate. 
+              An number of organizations are at The interest for Product Managemen
+              is expanding at a crazy rate.</p>
+          </div>
+          <hr>
+          <div class="pt-0 p-3 justify-content-between d-flex">
+            <p>Alia Noor</p>
+            <button class="btn btn-success">Free</button>
+          </div>
+        </div>
+      </div>
+              
+              
+      <div class="col-12 col-lg-4 col-md-6 justify-content-center d-flex ">
+        <div class="card rounded-0 border-0 mt-4" style="width: 22rem;">
+        <img src="https://theme.bitrixinfotech.com/e-learning/assets/images/courses/courses1.jpg" class="card-img-top rounded-0" alt="...">
+        <div class="card-body pb-0" style="color: #14213d;">
+          <h5 class="card-title fw-bold">Data Product Manager</h5>
+          <p class="card-text" style="font-size: 17px;">
+            The interest for Product Management is expanding at a crazy rate. 
+            An number of organizations are at The interest for Product Managemen
+            is expanding at a crazy rate.</p>
+        </div>
+        <hr>
+        <div class="pt-0 p-3 justify-content-between d-flex">
+          <p>Alia Noor</p>
+          <button class="btn btn-success">Free</button>
+        </div>
+      </div>
+    </div>
+              
+              
+    <div class="col-12 col-lg-4 col-md-6 justify-content-center d-flex ">
+      <div class="card rounded-0 border-0 mt-4" style="width: 22rem;">
+      <img src="https://theme.bitrixinfotech.com/e-learning/assets/images/courses/courses1.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-body pb-0" style="color: #14213d;">
+        <h5 class="card-title fw-bold">Data Product Manager</h5>
+        <p class="card-text" style="font-size: 17px;">
+          The interest for Product Management is expanding at a crazy rate. 
+          An number of organizations are at The interest for Product Managemen
+          is expanding at a crazy rate.</p>
+      </div>
+      <hr>
+      <div class="pt-0 p-3 justify-content-between d-flex">
+        <p>Alia Noor</p>
+        <button class="btn btn-success">Free</button>
+      </div>
+    </div>
+  </div>
+              
+              
+  <div class="col-12 col-lg-4 col-md-6 justify-content-center d-flex ">
+    <div class="card rounded-0 border-0 mt-4" style="width: 22rem;">
+    <img src="https://theme.bitrixinfotech.com/e-learning/assets/images/courses/courses1.jpg" class="card-img-top rounded-0" alt="...">
+    <div class="card-body pb-0" style="color: #14213d;">
+      <h5 class="card-title fw-bold">Data Product Manager</h5>
+      <p class="card-text" style="font-size: 17px;">
+        The interest for Product Management is expanding at a crazy rate. 
+        An number of organizations are at The interest for Product Managemen
+        is expanding at a crazy rate.</p>
+    </div>
+    <hr>
+    <div class="pt-0 p-3 justify-content-between d-flex">
+      <p>Alia Noor</p>
+      <button class="btn btn-success">Free</button>
+    </div>
+  </div>
+</div>
+             
+    
+          </div>
+        </section>
+
+        <!-- ====================================================[Events]========================================================================== -->
+        <section class="container-fluid p-3 bg-light" >
+          <div class="container pb-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-9 text-center">
+                <h1 class="">Upcoming Events</h1>
+                <p class="fs-5 text-dark">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                  nihil nemo repellat, suscipit saepe officia ipsam eum.
+                </p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center d-flex">
+
+              <div class="col-12 col-lg-4 col-md-6 justify-content-center d-flex ">
+                <div class="card rounded-3 border-0 mt-4" style="width: 22rem; height: auto;">
+                  <span class="position-absolute bg-warning text-center p-1 m-2" style="width: 4rem; height: 4rem;  line-height: 6px;">
+                    <h4 class="fw-bold">16</h4>
+                    <p>June</p>
+                  </span>
+                <img src="https://images.unsplash.com/photo-1554007460-791a7b8945d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1039&q=80" class="card-img-top" alt="...">
+                <div class="card-body pb-0" style="color: #14213d;">
+                  <h5 class="card-title fw-bold">Webinar: Data Specialist</h5>
+                  <p class="card-text text-secondary" style="font-size: 16px;">
+                    The interest for Product Management is expanding at a crazy rate. 
+                    An number of organizations are at The interest for Product Managemen
+                    is expanding at a crazy rate.</p>
+                </div>
+                <hr >
+                <div class="ps-3 pe-3  justify-content-between d-flex">
+                  <p>Alia Noor</p>
+                  <span style="width: 1px; height: 140%; background-color:grey; transform: translateY(-18px);"></span>
+                  <p>New York</p>
+                </div>
+              </div>
+
+              </div>
+
+              <div class="col-12 col-lg-4 col-md-6 justify-content-center d-flex ">
+                <div class="card rounded-3 border-0 mt-4" style="width: 22rem; height: auto;">
+                  <span class="position-absolute bg-warning text-center p-1 m-2" style="width: 4rem; height: 4rem;  line-height: 6px;">
+                    <h4 class="fw-bold">16</h4>
+                    <p>June</p>
+                  </span>
+                <img src="https://images.unsplash.com/photo-1554007460-791a7b8945d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1039&q=80" class="card-img-top" alt="...">
+                <div class="card-body pb-0" style="color: #14213d;">
+                  <h5 class="card-title fw-bold">Virtual Java Conference</h5>
+                  <p class="card-text text-secondary" style="font-size: 16px;">
+                    The interest for Product Management is expanding at a crazy rate. 
+                    An number of organizations are at The interest for Product Managemen
+                    is expanding at a crazy rate.</p>
+                </div>
+                <hr >
+                <div class="ps-3 pe-3  justify-content-between d-flex">
+                  <p>Alia Noor</p>
+                  <span style="width: 1px; height: 140%; background-color:grey; transform: translateY(-18px);"></span>
+                  <p>New York</p>
+                </div>
+              </div>
+
+              </div>
+
+              <div class="col-12 col-lg-4 col-md-6 justify-content-center d-flex ">
+                <div class="card rounded-3 border-0 mt-4" style="width: 22rem; height: auto;">
+                  <span class="position-absolute bg-warning text-center p-1 m-2" style="width: 4rem; height: 4rem;  line-height: 6px;">
+                    <h4 class="fw-bold">16</h4>
+                    <p>June</p>
+                  </span>
+                <img src="https://images.unsplash.com/photo-1554007460-791a7b8945d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1039&q=80" class="card-img-top" alt="...">
+                <div class="card-body pb-0" style="color: #14213d;">
+                  <h5 class="card-title fw-bold">International talk on E-Learning</h5>
+                  <p class="card-text text-secondary" style="font-size: 16px;">
+                    The interest for Product Management is expanding at a crazy rate. 
+                    An number of organizations are at The interest for Product Managemen
+                    is expanding at a crazy rate.</p>
+                </div>
+                <hr >
+                <div class="ps-3 pe-3  justify-content-between d-flex">
+                  <p>Alia Noor</p>
+                  <span style="width: 1px; height: 140%; background-color:grey; transform: translateY(-18px);"></span>
+                  <p>New York</p>
+                </div>
+              </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+        </section>
+
+        <!-- ====================================================[Counter]========================================================================== -->
+        <section class="container-fluid course">
+          <div class="container">
+            <div class="row justify-content-center p-3 pt-5 pb-4">
+
+              
+              
+              <div class="col-12 col-lg-3 col-md-6 justify-content-center d-flex ">
+                <div class="" style="width: 14rem;">
+                  <div class="text-white text-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3593/3593477.png" alt=""  width="70rem">
+                    <h1>1800+</h1>
+                    <p>Students</p>
+                  </div>
+                  </div>
+  
+                  
+                </div>
+
+                
+              
+              <div class="col-12 col-lg-3 col-md-6 justify-content-center d-flex ">
+                <div class="" style="width: 14rem;">
+                  <div class="text-white text-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2974/2974894.png" alt=""  width="70rem">
+                    <h1>1800+</h1>
+                    <p>Courses</p>
+                  </div>
+                  </div>
+  
+                  
+                </div>
+
+                
+              
+              <div class="col-12 col-lg-3 col-md-6 justify-content-center d-flex ">
+                <div class="" style="width: 14rem;">
+                  <div class="text-white text-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2643/2643425.png" alt=""  width="70rem">
+                    <h1>1800+</h1>
+                    <p>Certified Teachers</p>
+                  </div>
+                  </div>
+  
+                  
+                </div>
+
+              
+              
+                <div class="col-12 col-lg-3 col-md-6 justify-content-center d-flex ">
+                  <div class="" style="width: 14rem;">
+                    <div class="text-white text-center">
+                      <img src="https://cdn-icons-png.flaticon.com/512/1402/1402786.png" alt=""  width="70rem">
+                      <h1>1800</h1>
+                      <p>Award Winning</p>
+                    </div>
+                    </div>
+    
+                    
+                  </div>
+
+              </div>
+
+
+          </div>
+
+        </section>
+
+        <!-- ====================================================[Gallery]========================================================================== -->
+        <section class="container-fluid">
+          <div class="container p-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-9 text-center">
+                <h1 class="">Our Gallery</h1>
+                <p class="fs-5 text-dark">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                  nihil nemo repellat, suscipit saepe officia ipsam eum.
+                </p>
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-8 d-flex justify-content-around gap-0 p-1 " style="color: #14213d;">
+              <a href="" class="btn btn-light fw-bold">All</a>
+            <a href="" class="btn btn-light fw-bold">Web Design</a>
+          <a href="" class="btn btn-light fw-bold">Web Devlopment</a>
+        <a href="" class="btn btn-light fw-bold">Brand Identity</a>
+    </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 col-12 mt-4">
+              <img src="https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="rounded img-fluid" alt="...">
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-4">
+              <img src="https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="rounded img-fluid" alt="...">
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-4">
+              <img src="https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="rounded img-fluid" alt="...">
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-4">
+              <img src="https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="rounded img-fluid" alt="...">
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-4">
+              <img src="https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="rounded img-fluid" alt="...">
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-4">
+              <img src="https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="rounded img-fluid" alt="...">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====================================================[Gallery]========================================================================== -->
+        <section class="container-fluid bg-light p-5">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-9 text-center">
+                <h1 class="">Team Of Experts</h1>
+                <p class="fs-5 text-dark">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                  nihil nemo repellat, suscipit saepe officia ipsam eum.
+                </p>
+              </div>
+            </div>
+
+            <div class="row gap-3 justify-content-center mt-5">
+
+            <div class="col-lg-2 col-md-6 col-9 bg-white" style="width: 300px; height: 350px;">
+              <div class="w-100 h-75">
+              <img src="https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="img-fluid mt-2 mb-2 h-100" alt="..." >
+            </div>
+            <div class="p-3">
+              <h5 class="d-flex justify-content-center" style="color: #14213d;">Wendy Core</h5>
+              <p class="d-flex justify-content-center text-secondary">Computer Teacher</p>
+            </div>
+            </div>
+
+            
+
+            <div class="col-lg-2 col-md-6 col-9 bg-white" style="width: 300px; height: 350px;">
+              <div class="w-100 h-75">
+              <img src="https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="img-fluid mt-2 mb-2 h-100" alt="..." >
+            </div>
+            <div class="p-3">
+              <h5 class="d-flex justify-content-center" style="color: #14213d;">Wendy Core</h5>
+              <p class="d-flex justify-content-center text-secondary">Computer Teacher</p>
+            </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-9 bg-white" style="width: 300px; height: 350px;">
+              <div class="w-100 h-75">
+              <img src="https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="img-fluid mt-2 mb-2 h-100" alt="..." >
+            </div>
+            <div class="p-3">
+              <h5 class="d-flex justify-content-center" style="color: #14213d;">Wendy Core</h5>
+              <p class="d-flex justify-content-center text-secondary">Computer Teacher</p>
+            </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-9 bg-white" style="width: 300px; height: 350px;">
+              <div class="w-100 h-75">
+              <img src="https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="img-fluid mt-2 mb-2 h-100" alt="..." >
+            </div>
+            <div class="p-3">
+              <h5 class="d-flex justify-content-center" style="color: #14213d;">Wendy Core</h5>
+              <p class="d-flex justify-content-center text-secondary">Computer Teacher</p>
+            </div>
+            </div>
+            </div>
+            </section>
+
+            
+
+        <!-- ====================================================[Pricing]========================================================================== -->
+        <section class="container-fluid bg-white p-5">
+          <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-9 text-center">
+              <h1 class="">Our Pricing</h1>
+              <p class="fs-5 text-dark">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-md-4 col-sm-6">
+              <div class="pricingTable">
+                  <div class="pricing_heading">
+                      <h3 class="title">Pricing Plan</h3>
+                      <span class="value">
+                          $12.99
+                          <span class="month">per month</span>
+                      </span>
+                  </div>
+                  <div class="content">
+                      <ul>
+                          <li>Lorem ipsum</li>
+                          <li>Lorem ipsum</li>
+                          <li>Lorem ipsum</li>
+                          <li>Lorem ipsum</li>
+                          <li>Lorem ipsum</li>
+                      </ul>
+                      <div class="link">
+                          <a href="#">sign up</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-4 col-sm-6" style="transform: translateY(-2rem);">
+              <div class="pricingTable">
+                  <div class="pricing_heading">
+                      <h3 class="title">Pricing Plan</h3>
+                      <span class="value">
+                          $22.99
+                          <span class="month">per month</span>
+                      </span>
+                  </div>
+                  <div class="content">
+                      <ul>
+                          <li>Lorem ipsum</li>
+                          <li>Lorem ipsum</li>
+                          <li>Lorem ipsum</li>
+                          <li>Lorem ipsum</li>
+                          <li>Lorem ipsum</li>
+                      </ul>
+                      <div class="link">
+                          <a href="#">sign up</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          
+          <div class="col-md-4 col-sm-6">
+            <div class="pricingTable">
+                <div class="pricing_heading">
+                    <h3 class="title">Pricing Plan</h3>
+                    <span class="value">
+                        $22.99
+                        <span class="month">per month</span>
+                    </span>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                    <div class="link">
+                        <a href="#">sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+          </div>
+
+
+        </div>
+          </section>
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
